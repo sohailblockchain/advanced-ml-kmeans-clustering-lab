@@ -1,55 +1,35 @@
-# Week 6: Advanced ML & Unsupervised Learning
+# Advanced Machine Learning: K-Means Clustering Lab
 
-## What is in This Folder?
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/sohailblockchain/weeks-6-advance-ML/blob/main/Lab3_KMeans_Clustering.ipynb)
 
-| File | What It Does |
-|------|-------------|
-| `Week6_Advanced_ML_Lecture.docx` | The main lecture notes with all topics explained |
-| `Lab3_KMeans_Clustering.ipynb` | Hands-on coding lab for K-Means clustering |
+A classroom-ready Week 6 introduction to advanced model improvement and unsupervised learning, with a practical K-Means sales-data clustering notebook.
 
-## What Will You Learn?
+## Learning outcomes
 
-By the end of this week, you will be able to:
+- Explain supervised and unsupervised learning.
+- Prepare and scale numeric features for distance-based clustering.
+- Apply K-Means with reproducible initialization.
+- Use the Elbow method to reason about K.
+- Visualize clusters and translate patterns into business insights.
 
-1. **Make your models better** - Use cross-validation to test your model properly
-2. **Find the best settings** - Use GridSearchCV to tune hyperparameters
-3. **Group data without labels** - Use K-Means clustering to find hidden patterns
-4. **Apply ML to business** - Use clustering for customer segmentation
+## Contents
 
-## How to Use the Lab Notebook
+| File | Purpose |
+| --- | --- |
+| `Week6_Advanced_ML_Lecture.docx` | Lecture notes on model improvement and unsupervised learning. |
+| `Lab3_KMeans_Clustering.ipynb` | Commented, executable K-Means practical lab. |
 
-1. Open Google Colab (colab.research.google.com)
-2. Click **File → Upload notebook**
-3. Upload `Lab3_KMeans_Clustering.ipynb`
-4. Run each cell from top to bottom
+## Verified execution
 
-**Note:** The data is already inside the notebook - you don't need to upload any CSV file!
+All Python cells were executed successfully using a non-interactive Matplotlib backend.
 
-## Topics Covered
+## Recommended repository details
 
-### Part 1: Model Improvement
-- What is cross-validation?
-- How does K-Fold work?
-- What is hyperparameter tuning?
-- How to use GridSearchCV
+- **Name:** `advanced-ml-kmeans-clustering-lab`
+- **Description:** Practical advanced machine-learning lab covering unsupervised learning, feature scaling, K-Means clustering, visualization, and business interpretation.
+- **Topics:** `machine-learning`, `unsupervised-learning`, `k-means`, `clustering`, `python`, `scikit-learn`, `google-colab`, `education`
+- **Demo:** Use the Colab badge above.
 
-### Part 2: K-Means Clustering
-- What is unsupervised learning?
-- How does K-Means work step by step?
-- How to visualize clusters
-- Real example: Customer segmentation
+## Author
 
-## Homework
-
-1. Use GridSearchCV on any dataset and find the best parameters
-2. Apply K-Means clustering and create a visualization
-3. Explain the difference between supervised and unsupervised learning
-
-## Need Help?
-
-If you have questions:
-- Review the lecture notes first
-- Try running the lab code step by step
-- Ask your instructor during office hours
-
-Good luck with your learning! 🎓
+**Sohail Ahmed** — Web Development and Data Science Trainer
